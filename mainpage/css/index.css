@@ -23,8 +23,8 @@ footer{width: 27%; background-color: #E8E8E8;height: 695px;  position: fixed; ri
     margin: 50px auto;
 
 }
-nav{ width: 100%; height: 500px; margin: auto; padding-left: 70px; padding-top: 50px;}
-nav ul li{ width: 100%; font-size: 20px; padding-top: 30px;}
+nav{ width: 100%; height: 450px; margin: auto; padding-left: 70px; padding-top: 50px;}
+nav ul li{ color: rgb(59, 59, 59);  width: 100%; font-size: 20px; padding-top: 30px;}
 .more-tap{height: 25px; padding-left: 70px; width: 100%; font-size: 20px;}
 header img{ padding-right: 8px;}
 
@@ -32,11 +32,14 @@ header img{ padding-right: 8px;}
 
 
 /* footer */
-#foot-wr{width: 100%;height: 100%;display: block;}
-.foot-friend{background-color: #fff; width: 100%; height: 75%;}
-.foot-info{background-color: aqua; width: 100%; height: 25%;}
-.ft-myinfo{}
-.ft-myinfo > p{}
-.ft-myinfo > ul{}
-.ft-myinfo li{}
-.ft-clinfo{}
+#foot-wr{color: #747474;  position: relative; width: 100%;height: 100%;display: block;}
+.foot-friend{width: 100%; height: 75%;}
+.foot-info{padding-top: 20px; font-size: 12px; display: flex; width: 100%; height: 25%;}
+.foot-info span{font-size: 12px;padding-right: 7px;}
+.foot-info p{font-size: 16px;}
+.ft-myinfo{padding-left: 35px;}
+.foot-info ul {padding-top: 7px;}
+.ft-clinfo{padding-left: 20px;}
+
+/* footer friend */
+.friendText{ position: absolute; top: 60px; left: 60px; color: #756B6B; font-size: 18px;}
